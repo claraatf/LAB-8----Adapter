@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.*;
 
-public class Main {
+public class Cliente {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>(List.of("A", "B", "C"));
         ListToMapAdapter<String> mapAdapter = new ListToMapAdapter<>(list);
